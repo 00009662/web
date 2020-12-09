@@ -363,3 +363,260 @@ footer {
 .product-text > p {
     font-size: 20px;
 }
+
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 900px;
+    }
+
+    .intro-box__inner-text {
+        font-size: 50px;
+    }
+
+    .intro-box__inner-image > img {
+        max-width: 400px;
+    }
+
+    .about-intro__inner {
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .about-intro__inner-text {
+        font-size: 50px;
+        font-weight: 700;
+        max-width: 300px;
+    }
+    
+    .about-intro__inner-text > a {
+        display: block;
+        margin-top: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:  #ffd959;
+    }
+
+    .slides > li > img {
+        max-width: 800px;
+    }
+
+    .contact__inner {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-box {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .social-links{
+        align-items: center;
+        margin: 0 auto;
+    
+    }
+
+    .product__inner {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .product-image > img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        max-width: 700px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav {
+        margin-top: 10px;
+    }
+
+    .intro-box__inner-text {
+        font-size: 30px;
+    }
+
+    .intro-box__inner-image > img {
+        max-width: 300px;
+    }
+
+    .about-intro__inner-text {
+        font-size: 60px;
+        font-weight: 700;
+        max-width: 400px;
+    }
+    
+    .about-intro__inner-text > a {
+        display: block;
+        margin-top: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:  #ffd959;
+    }
+    
+    .slides > li > img {
+        max-width: 600px;
+    }
+
+    .about-company__inner-text1 > h1 {
+        font-size: 30px;
+    }
+    
+    .about-company__inner-text2 > h1 {
+        font-size: 30px;
+    }
+    
+    .about-company__inner-text3 > h1 {
+        font-size: 30px;
+    }
+
+    .award-box > img {
+        width: 100px;
+    }
+
+    .award-box > p {
+        font-size: 15px;
+    }
+
+    .products__inner-box > img {
+        max-width: 600px;
+    }
+
+
+@media (max-width: 450px) {
+    .intro-box__inner {
+        display: block;
+    }
+
+    .intro-box {
+        padding: 50px 20px;
+    }
+
+    .intro-box__inner-text {
+        font-size: 25px;
+    }
+
+    .intro-box__inner-image {
+       display: block;
+    }
+
+    .about-intro {
+        padding: 50px 20px;
+    }
+
+    .about-intro__inner {
+        display: block;
+    }
+
+    .about-intro__inner-text {
+        font-size: 30px;
+        font-weight: 700;
+        max-width: 400px;
+    }
+    
+    .about-intro__inner-text > a {
+        display: block;
+        margin-top: 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color:  #ffd959;
+    }
+
+    .slides > li > img {
+        max-width: 300px;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    .footer > ul {
+        margin-bottom: 20px;
+    }
+
+    .about-company__inner-text2 {
+        margin-top: 50px;
+    }   
+
+    .about-company__inner-text3 {
+        margin-top: 50px;
+    }    
+    
+    .about-company__inner-text1 > h1 {
+        font-size: 20px;
+    }
+    
+    .about-company__inner-text2 > h1 {
+        font-size: 20px;
+    }
+    
+    .about-company__inner-text3 > h1 {
+        font-size: 20px;
+    }
+
+    .award_head {
+        font-size: 30px;
+    }
+
+    .award__inner {
+        display: block;
+        text-align: center;
+    }
+
+    .award-box {
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .contact-box {
+        padding: 20px;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    input[type=text] {
+        width: 275px;
+        height: 30px;
+        font-size: 20px;
+    }
+    
+    input[type=mail] {
+        width: 275px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    textarea {
+        border: none;
+        width: 275px;
+        font-size: 20px;
+        background-color: #ffd959;
+        transition: 0.4s ease-out;
+        resize: none;
+    }
+
+    .products {
+        padding: 50px;
+    }
+
+    .products__inner-box > img {
+        max-width: 300px;
+    }
+}

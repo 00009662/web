@@ -43,6 +43,11 @@ nav {
     text-decoration: none;
     color: #000;
     font-weight: 700;
+    transition: 0.4s ease-out;
+}
+
+.nav > li > a:hover {
+    color: rgb(141, 141, 141);
 }
 
 .intro-box {
@@ -63,7 +68,6 @@ nav {
 }
 
 .about-intro {
-    margin-bottom: 100px;
     padding: 100px;
     padding-bottom: 300px;
     background-color: #ff7aba;
@@ -123,12 +127,239 @@ nav {
 .products {
     margin-top: 100px;
     padding: 100px;
+    background-color: #51eed0;
+    background: url('../img/bgcpattern1.png');
+    background-color: #51eed0;
 }
 
 .products__inner-box {
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.products__inner-box > h1 {
+    font-weight: 700;
+    font-size: 60px;
 }
 
 .products__inner-box > img {
     max-width: 800px;
+}
+
+.about-company {
+    margin-top: 100px;
+    padding: 100px;
+    background: url('/img/bgcpattern2.png');
+    background-color:#ff7aba;
+}
+
+.about-company__inner-text1 > h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.about-company__inner-text2 {
+    margin-top: 200px;
+}
+
+.about-company__inner-text2 > h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.about-company__inner-text3 {
+    margin-top: 200px;
+}
+
+.about-company__inner-text3 > h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.award {
+    background: url('/img/bgcpattern3.png');
+    background-color:  #ffd959;
+    padding: 100px;
+}
+
+.award__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.award-box > img {
+    width: 200px;
+}
+
+.award-box > p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.award_head {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 180px;
+}
+
+.contact {
+    margin-top: 100px;
+    padding: 200px;
+    background: url('../img/bgcpattern.jpg');
+    background-color: #eaeaea;
+}
+
+.contact__inner {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    margin-right: 150px;
+    background-color: #ffd959;
+    padding: 80px;
+    box-shadow: 0px 0px 10px #504216;
+}
+
+.contact-box > h1 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-box > p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-links{
+    align-items: center;
+
+}
+
+.social-links > img {
+    width: 30px;
+    padding-left: 10px;
+}
+
+.social-links > img:first-child {
+    padding-left: 0;
+}
+
+.form {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.form > h1 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.form > form > div {
+    margin-bottom: 10px;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: #ffd959;
+    transition: 0.4s ease-out;
+}
+
+input[type=text] {
+    width: 475px;
+    height: 30px;
+    font-size: 20px;
+}
+
+input[type=mail] {
+    width: 475px;
+    height: 30px;
+    font-size: 20px;
+}
+
+input:focus {
+    background-color: #12d9b3;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #12d9b3;
+}
+
+textarea {
+    border: none;
+    width: 475px;
+    font-size: 20px;
+    background-color: #ffd959;
+    transition: 0.4s ease-out;
+    resize: none;
+}
+
+textarea:focus {
+    background-color: #12d9b3;
+    outline: none;
+}
+
+footer {
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer > ul {
+    margin-right: 50px;
+}
+
+.footer > ul > li {
+    padding: 5px;
+    font-weight: 700;
+}
+
+.footer > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.product {
+    background-color: #9334dc;
+    padding: 100px;
+    height: 100vh;
+}
+
+.product__inner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.product-image > img {
+    width: 1200px;
+}
+
+.product-text > h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.product-text > p {
+    font-size: 20px;
 }
